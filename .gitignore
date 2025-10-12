@@ -5,7 +5,7 @@
 .terraform.lock.hcl
 crash.log
 
-# Local tfvars (may contain secrets)
+# Local tfvars 
 *.tfvars
 *.tfvars.json
 
@@ -18,7 +18,7 @@ crash.log
 .vscode/
 .idea/
 
-# Data files (do NOT push large csv/parquet)
+# Data files - ignore large data files
 *.csv
 *.parquet
 ny_taxi_postgres_data/
